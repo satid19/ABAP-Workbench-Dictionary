@@ -25,4 +25,4 @@ The requirements to follow the exercises in this repository are:
 ## Exercises
 [Getting Started](Exercises/EX0/EX0.MD)
 
-[Exercise 1 - Core Data Services (CDS) Data Model](Exercises/EX1/EX1.md)
+[Exercise 1 - Domain Creation](Exercises/EX1/EX1.md)
