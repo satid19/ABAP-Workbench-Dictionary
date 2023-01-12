@@ -1,6 +1,12 @@
 # Introduction
 1. Basic SAP Screen Navigation
-2. Create a pakage
+2. Create a TR
+
+From Eclipse
+
+
+
+3. Create a pakage
 
 Package Creation from Eclipse 
 
@@ -14,4 +20,4 @@ Package creation From ECC
 * Press Enter, it will prompt you to create the Package.
 * Save it under a transport request.
 
-4.  Create a TR
+
