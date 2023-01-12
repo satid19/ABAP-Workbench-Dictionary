@@ -23,3 +23,4 @@ The requirements to follow the exercises in this repository are:
 * You have installed the _latest_ ABAP Development Tools (ADT), see [ABAP Development Tools](https://tools.hana.ondemand.com/#abap)
 
 ## Exercises
+[Exercise 1 - Core Data Services (CDS) Data Model](Exercises/EX1/)
