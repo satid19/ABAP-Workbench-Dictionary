@@ -2,7 +2,14 @@
 1. Basic SAP Screen Navigation
 2. Create a TR
 
-From Eclipse
+Using Eclips
+
+![TR1](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/fded38334590366417f4664301818a4651a0f976/Exercises/EX0/TR%20Creation%201.PNG)
+
+![TR2](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/fded38334590366417f4664301818a4651a0f976/Exercises/EX0/TR%20Creation%202.PNG)
+
+Using ECC
+* Use T-CODE SE01/ SE09
 
 
 
