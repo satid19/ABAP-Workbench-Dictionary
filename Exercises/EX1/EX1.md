@@ -12,3 +12,4 @@ In very few cases we have to create domain.
 
 ### Procedure
 1. Open Transaction SE11. 
+2. 
