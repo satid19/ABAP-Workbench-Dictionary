@@ -9,16 +9,14 @@ You use the ABAP Dictionary to create and manage data definitions (metadata). Th
 
 ## Overview
 In this session we will guide you to build ABAP Dictionary elemnets:
-1. Domain 
-2. Data element
-3. Structure
-4. Table
-5. TMG(Table maintenance generator)
-6. Views
-7. Lock objects
-8. Search Help
-9. ABAP Editor, 
-10.Internal tables
+1. Types ( Domain, Data element, Structure, Table Type)
+2. Table
+3. TMG(Table maintenance generator)
+4. Views
+5. Lock objects
+6. Search Help
+7. ABAP Editor, 
+8.Internal tables
 
 
 ## Requirements
@@ -29,4 +27,4 @@ The requirements to follow the exercises in this repository are:
 ## Exercises
 [Getting Started](Exercises/EX0/EX0.MD)
 
-[Exercise 1 - Domain Creation](Exercises/EX1/EX1.md)
+[Exercise 1 - Types](Exercises/EX1/EX1.md)
