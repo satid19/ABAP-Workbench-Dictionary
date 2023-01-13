@@ -19,7 +19,7 @@ In this session we will guide you to build ABAP Dictionary elemnets:
 8. Search Help
 9. ABAP Editor, 
 10.Internal tables
-11. Eclipse 
+
 
 ## Requirements
 The requirements to follow the exercises in this repository are:
