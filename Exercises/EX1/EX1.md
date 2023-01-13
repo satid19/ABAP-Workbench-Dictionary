@@ -1,7 +1,4 @@
-# Exercise 1 - Types
-
-SAP Help Link for [Dictinory Types](https://help.sap.com/saphelp_SCM700_ehp02/helpdata/en/cf/21ede5446011d189700000e8322d00/frameset.htm)
-
+# Exercise 1 - Domain And Types
 
 # Domain
 
@@ -18,3 +15,9 @@ In very few cases we have to create domain.
 ### Procedure
 1. Open Transaction SE11. 
 2. 
+
+# Types
+## Definition
+User-defined data types can be stored for all programs in the ABAP Dictionary. This central definition of types that are used more than once in the ABAP Dictionary allows them to be changed centrally. The active ABAP Dictionary ensures that such changes are made at all the relevant locations. 
+
+SAP Help Link for [Dictinory Types](https://help.sap.com/saphelp_SCM700_ehp02/helpdata/en/cf/21ede5446011d189700000e8322d00/frameset.htm)
