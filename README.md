@@ -1,7 +1,11 @@
 # ABAP-Workbench-Dictionary
 ABAP Workbench &amp; Dictionary Training and Exersises
+
+[SAP HELP ABAP Dictionary ](https://help.sap.com/saphelp_SCM700_ehp02/helpdata/en/cf/21ede5446011d189700000e8322d00/frameset.htm)
 ## Description
 Training and Exercise material for ABAP Workbench and Dictionary.
+## Purpose of ABAP Dictionary
+You use the ABAP Dictionary to create and manage data definitions (metadata). The ABAP Dictionary permits a central description of all the data used in the system without redundancies. New or modified information is automatically provided for all the system components. This ensures data integrity, data consistency and data security
 
 ## Overview
 In this session we will guide you to build ABAP Dictionary elemnets:
