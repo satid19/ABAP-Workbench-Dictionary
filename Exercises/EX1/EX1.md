@@ -26,8 +26,22 @@ In very few cases we have to create domain.
 5. Give package name and TR Created Earlier
 ![Doamin4](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Doamin_4.PNG)
 
+6. If you want any specific Vlaue Range please define in Value range Tab
+
 # Types
 ## Definition
 User-defined data types can be stored for all programs in the ABAP Dictionary. This central definition of types that are used more than once in the ABAP Dictionary allows them to be changed centrally. The active ABAP Dictionary ensures that such changes are made at all the relevant locations. 
 
 SAP Help Link for [Dictinory Types](https://help.sap.com/saphelp_SCM700_ehp02/helpdata/en/cf/21ede5446011d189700000e8322d00/frameset.htm)
+
+## DATA Element
+
+1. SE11-> Data Type 
+2. Give Proper name like Z_NAME_1234 And select Data Element in next screen
+![DataE1](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Data_E_1.PNG)
+
+2. Give Doamin Name Earlier created and selected package
+![DataE2](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Data_E_2.PNG)
+
+3. Give Proper Field Lavels  
+![DataE3](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Data_E_3.PNG)
