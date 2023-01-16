@@ -14,7 +14,17 @@ In very few cases we have to create domain.
 
 ### Procedure
 1. Open Transaction SE11. 
-2. 
+2. Give Name And Press Enter 
+![Domain1](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Domain1.PNG)
+
+3. Give Discription and Select a DATA type 
+![Doamin2](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Domain_2.PNG)
+
+4.Give Proper length and Output length
+![Domain3](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Doamin_3.PNG)
+
+5. Give package name and TR Created Earlier
+![Doamin4](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX1/Doamin_4.PNG)
 
 # Types
 ## Definition
