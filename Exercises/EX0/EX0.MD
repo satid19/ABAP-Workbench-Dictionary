@@ -11,7 +11,7 @@ Using Eclips
 Using ECC
 * Use T-CODE SE01/ SE09
 
-
+![TR SE09](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX0/TR.PNG)
 
 3. Create a pakage
 
@@ -23,8 +23,10 @@ Package Creation from Eclipse
 Package creation From ECC
 * Go to TCode SE80.
 * Select Package from dropdown list.
-* Enter ZPACK_#### as the package name.
-* Press Enter, it will prompt you to create the Package.
+  ![PAC1](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX0/package_1.PNG)
+* Enter ZPACK_#### as the package name
+  ![Pac2](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/EX0/package_2.PNG)
+* Press Enter.
 * Save it under a transport request.
 
 
