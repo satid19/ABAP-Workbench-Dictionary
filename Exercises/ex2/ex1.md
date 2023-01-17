@@ -10,19 +10,19 @@ The data model in this workshop consists of two transactional tables (**travel**
 A Travel entity defines general travel data, such as the agency ID or customer ID, the overall status of the travel and the price of travel.   
 1. Right click on your package **`ZRAP_TRAVEL_####`** (where `####` is your group ID), choose **_New > Other ABAP Repository Object_** from the context menu.   
 
-   ![Create Database Table](images/traveltable01.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/traveltable01.png)
 
 2. Enter `database` in the search field, choose **Database table** in the list and then choose **Next**.  
 
-   ![Create Database Table](images/traveltable02.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/traveltable02.png)
 
 3. Provide **`ZRAP_ATRAV_####`** (where `####` is your group ID) as name and a description (e.g. *Travel data*) in the appearing dialog and choose **Next**.  
 
-   ![Create Database Table](images/traveltable03.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/traveltable03.png)
 
 4. Assign a transport request and choose **Finish**. The table is created and a new editor with the defaulted content is opened. The table-specific technical settings are specified using annotations at the top.  
 
-   ![Create Database Table](images/traveltable04.png)  
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/traveltable04.png)  
 
 5. Replace the source code with the code snippet provided below and replace all occurrences of `####` with your group ID. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose. 
 
