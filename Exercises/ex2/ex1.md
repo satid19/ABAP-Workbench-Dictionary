@@ -85,26 +85,26 @@ A Booking entity comprises general flight and booking data, the customer ID for 
 
     <pre> 
     @EndUserText.label : 'Booking data'
-    @AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
+    @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
     @AbapCatalog.tableCategory : #TRANSPARENT
-    @AbapCatalog.deliveryClass : #C
+    @AbapCatalog.deliveryClass : #A
     @AbapCatalog.dataMaintenance : #RESTRICTED
-    define table zrap_abook_#### {
-      key client            : mandt not null;
-      key booking_uuid      : sysuuid_x16 not null;
-      travel_uuid           : sysuuid_x16 not null;
-      booking_id            : /dmo/booking_id;
-      booking_date          : /dmo/booking_date;
-      customer_id           : /dmo/customer_id;
-      carrier_id            : /dmo/carrier_id;
-      connection_id         : /dmo/connection_id;
-      flight_date           : /dmo/flight_date;
-      @Semantics.amount.currencyCode : 'zrap_abook_####.currency_code'
-      flight_price          : /dmo/flight_price;
-      currency_code         : /dmo/currency_code;
-      created_by            : syuname;
-      last_changed_by       : syuname;
-      local_last_changed_at : timestampl;
+    define table zrap_abook_1234 {
+    key client            : abap.clnt not null;
+    key booking_uuid      : sysuuid_x16 not null;
+    travel_uuid           : sysuuid_x16 not null;
+    booking_id            : abap.char(8);
+    booking_date          : abap.dats;
+    customer_id           : abap.char(8);
+    carrier_id            : abap.char(8);
+    connection_id         : abap.char(8);
+    flight_date           : abap.dats;
+    @Semantics.amount.currencyCode : 'zrap_abook_1234.currency_code'
+    flight_price          : abap.curr(5,2);
+    currency_code         : abap.cuky;
+    created_by            : syuname;
+    last_changed_by       : syuname;
+    local_last_changed_at : timestampl;
     }
     </pre>   
 
