@@ -71,15 +71,15 @@ A Booking entity comprises general flight and booking data, the customer ID for 
   
 1. Right click on the **Database Tables** folder, choose **New Database Table** from the context menu.  
 
-   ![Create Database Table](images/bookingtable01.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/bookingtable01.png)
 
 2. Maintain **`ZRAP_ABOOK_####`** (where `####` is your group ID) as name and a description (e.g. **_Booking data_**) in the appearing dialog and choose **Next**. 
 
-   ![Create Database Table](images/bookingtable02.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/bookingtable02.png)
 
 3. Assign a transport request and choose **Finish**. The table is created and a new editor with the defaulted content is opened.
 
-   ![Create Database Table](images/bookingtable03.png)
+   ![Create Database Table](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/bookingtable03.png)
 
 4. Replace the default source code with the code snippet provided below and replace all occurrences of  `####` with your group ID. You can make use of the Replace All feature (shortcut **Ctrl+F**) in ADT for this purpose.  
 
