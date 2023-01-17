@@ -28,3 +28,5 @@ The requirements to follow the exercises in this repository are:
 [Getting Started](Exercises/EX0/EX0.MD)
 
 [Exercise 1 - Types](Exercises/EX1/EX1.md)
+
+[Exercise 2 - Database Tables](https://github.com/Krishna-Alani/S4HANATraining-RAP/tree/main/exercises/ex1) 
