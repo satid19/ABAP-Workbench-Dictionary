@@ -27,33 +27,32 @@ A Travel entity defines general travel data, such as the agency ID or customer I
 5. Replace the source code with the code snippet provided below and replace all occurrences of `####` with your group ID. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose. 
 
     <pre>
-@EndUserText.label : 'Travel Data'
-@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
-@AbapCatalog.tableCategory : #TRANSPARENT
-@AbapCatalog.deliveryClass : #A
-@AbapCatalog.dataMaintenance : #RESTRICTED
-define table zrap_atrav_1234 {
-  key client            : abap.clnt not null;
-  key travel_uuid       : sysuuid_x16 not null;
-  travel_id             : abap.char(8);
-  agency_id             : abap.char(8);
-  customer_id           : kunnr;
-  begin_date            : timestampl;
-  end_date              : timestampl;
-  @Semantics.amount.currencyCode : 'zrap_atrav_1234.currency_code'
-  booking_fee           : abap.curr(5,2);
-  @Semantics.amount.currencyCode : 'zrap_atrav_1234.currency_code'
-  total_price           : abap.curr(5,2);
-  currency_code         : abap.cuky;
-  description           : abap.string(256);
-  overall_status        : abap.char(1);
-  created_by            : syuname;
-  created_at            : timestampl;
-  last_changed_by       : syuname;
-  last_changed_at       : timestampl;
-  local_last_changed_at : timestampl;
-
-}
+    @EndUserText.label : 'Travel Data'
+    @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+    @AbapCatalog.tableCategory : #TRANSPARENT
+    @AbapCatalog.deliveryClass : #A
+    @AbapCatalog.dataMaintenance : #RESTRICTED
+    define table zrap_atrav_1234 {
+    key client            : abap.clnt not null;
+    key travel_uuid       : sysuuid_x16 not null;
+    travel_id             : abap.char(8);
+    agency_id             : abap.char(8);
+    customer_id           : kunnr;
+    begin_date            : timestampl;
+    end_date              : timestampl;
+    @Semantics.amount.currencyCode : 'zrap_atrav_1234.currency_code'
+    booking_fee           : abap.curr(5,2);
+    @Semantics.amount.currencyCode : 'zrap_atrav_1234.currency_code'
+    total_price           : abap.curr(5,2);
+    currency_code         : abap.cuky;
+    description           : abap.string(256);
+    overall_status        : abap.char(1);
+    created_by            : syuname;
+    created_at            : timestampl;
+    last_changed_by       : syuname;
+    last_changed_at       : timestampl;
+    local_last_changed_at : timestampl;
+    }
     </pre>
 
    ![Create Database Table](images/traveltable05.png)  
