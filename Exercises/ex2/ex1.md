@@ -55,7 +55,7 @@ A Travel entity defines general travel data, such as the agency ID or customer I
     }
     </pre>
 
-   ![Create Database Table](images/traveltable05.png)  
+   ![Create Database Table](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/ex2/Table_1.PNG)  
 
     **Short explanation:**  
     - Some data elements from the ABAP Flight Reference Scenario (namespace `/DMO/`) are used.  
@@ -108,12 +108,12 @@ A Booking entity comprises general flight and booking data, the customer ID for 
     }
     </pre>   
 
-    ![Create Database Table](images/bookingtable04.png)
+    ![Create Database Table](https://github.com/satid19/ABAP-Workbench-Dictionary/blob/main/Exercises/ex2/table_2.PNG)
   
     **Short explanation:**
     - The table key consists of the `CLIENT` field and the `BOOKING_UUID` field which is a technical key (16 Byte UUID).   
     - A human-readable travel identifier: `BOOKING_ID`  
     - Some standard administrative fields are defined: `CREATED_BY`, `LAST_CHANGED_BY`, and `LOCAL_LAST_CHANGED_AT`.  
   
-5. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the changes.  
+5. Save ![save icon](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/adt_save.png) and activate ![activate icon](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/adt_activate.png) the changes.  
   
