@@ -4,7 +4,7 @@ In this exercise you will create two database tables to store the **travel** and
 
 The data model in this workshop consists of two transactional tables (**travel** and **booking**) as well as some master data that we will re-use from the already existing demo content (**Agency**, **Customer** and **Flight**), as well as a few more.
 
-![Data Model](images/datamodel01.png)
+![Data Model](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/datamodel01.png)
 
 ## Exercise 1.1 - Create the Travel database table
 A Travel entity defines general travel data, such as the agency ID or customer ID, the overall status of the travel and the price of travel.   
