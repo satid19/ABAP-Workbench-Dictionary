@@ -64,7 +64,7 @@ A Travel entity defines general travel data, such as the agency ID or customer I
     - The field CURRENCY_CODE is specified as currency key for the amount fields `BOOKING_FEE` and `TOTAL_PRICE` using the semantic annotation `@Semantics.amount.currencyCode`   
     - Some standard administrative fields are defined: `CREATED_BY`, `CREATED_AT`, `LAST_CHANGED_BY`, `LAST_CHANGED_AT` and `LOCAL_LAST_CHANGED_AT`.  
   
-6. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the changes.  
+6. Save ![save icon](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/adt_save.png) and activate ![activate icon](https://github.com/Krishna-Alani/S4HANATraining-RAP/blob/main/exercises/ex1/images/adt_activate.png) the changes.  
 
 ## Exercise 1.2 - Create the Booking database table
 A Booking entity comprises general flight and booking data, the customer ID for whom the flight is booked as well as the travel ID to which the booking belongs to – and some admin fields.  
