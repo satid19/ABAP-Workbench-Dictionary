@@ -29,4 +29,4 @@ The requirements to follow the exercises in this repository are:
 
 [Exercise 1 - Types](Exercises/EX1/EX1.md)
 
-[Exercise 2 - Database Tables](Exercises/EX2/EX2.md
+[Exercise 2 - Database Tables](Exercises/ex2/ex1.md)
